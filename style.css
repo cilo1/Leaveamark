@@ -1,0 +1,446 @@
+body{
+	background:#E3E1E1;
+    margin: 0;
+    padding: 0;
+}
+header,footer{ display:block;}
+
+ul{
+	list-style:none;
+}
+
+header{
+ 	margin-bottom:7%;	
+}
+.wrapper{
+	margin-bottom:10px;
+}
+
+footer{
+	
+		
+}
+
+.clear{
+	clear:both;
+}
+
+#icons{
+	width:10%;
+}
+
+#wrapper{
+	width:100%;
+}
+
+#top_menu{
+	position:fixed;
+	top:0px;
+	background:#fff;
+	color:#000;
+	font-size:16px;
+	width:100%;
+	border-bottom:#ccc 0.1em solid;	
+	padding:5px;
+	
+}
+
+#logo{
+	padding:5px;
+	margin-left:2%;
+	font-size:20px;
+	float:left;
+}
+
+#link_menu{
+	float:left;
+	width:500px;
+	text-align:center;
+	border:#ccc 0.1em solid;
+	border-radius:5px;
+	margin-left:10%;
+	
+}
+#link_menu ul{ 
+	margin-top:0px;}
+#link_menu li{
+	float:left;
+	margin-left:5%;
+	padding:5px;
+	font-size:17px;
+}
+
+#link_menu li a{
+	color:#ccc;
+	text-decoration:none;
+}
+
+#link_menu li a:hover{
+	color:#000;
+	text-decoration:none;
+}
+#upload{
+	float:left;
+	width:140px;
+	margin-top:0px;	
+	padding:2px;
+	margin-left:10px;
+	border:#ccc 0.1em solid;
+	border-radius:1px;
+	text-align:center;
+}
+#upload a{
+	text-decoration:none;
+	font-size:13px;
+	color:#000;
+}
+#upload img{
+	width:30px;
+	height:30px;
+	
+}
+#mark_user{
+	float:right;
+	margin-right:30px;
+	width:70px;
+	margin-top:0px;
+	border:#ccc 0.1em solid;
+	padding:5px;
+}
+#mark_user img{
+	width:25px;
+	height:25px;
+}
+.center {/*Not used but helps to center a div, check main_content*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;    
+}
+
+.main_content{	
+	width:80%;
+	float: left;
+	margin-left:3%;
+}
+.aside_content{
+	width:20%;
+	float:right;
+	margin-right:0px;
+}
+
+.aside_content #friends{
+	border:#ccc solid 0.1em;	
+	background:#fff;		
+	border-radius:10px;
+	position:fixed;
+	width:230px;
+	padding:5px;
+	top:25%;
+}
+#friends ul{
+	list-style:none;
+	margin-right:50%;
+}
+#friends li{
+	margin-bottom:5px;
+	width:150px;
+	padding:5px;
+	border:#ddd solid 0.1em;
+	text-align:center;
+	padding-right:3px;
+	background:#ddd;
+	border-radius:4px;
+}
+#friends li a{
+	color:#000;
+	text-decoration:none;
+}
+
+.aside_content #uploadPlaces{
+	border:#ccc solid 0.1em;	
+	background:#fff;
+	padding:10px;
+	border-radius:10px;
+	position:fixed;
+	width:230px;
+	top:50%;
+} 
+#uploadPlaces div{
+	padding:5px;
+	border-top:#ccc dotted 0.1em;
+}
+#uploadPlaces input,select{
+	padding:5px;
+}
+
+.img_content_featured{
+	float:left;
+	width: 20%;	
+	border:#ccc solid 0.1em;
+	border-width:1px;
+	margin:10px;
+	background:#fff;
+	padding:7px;
+	border-radius:10px;
+	height:260px;
+}
+#featured_label{
+	border:#F2880F solid 0.1em;
+	color:#fff;
+	background:#F2880F;
+	padding:3px;
+	font-size:15px;
+}
+.img_content{
+	float:left;
+	width: 20%;	
+	border:#ccc solid 0.1em;
+	margin:10px;
+	background:#fff;
+	padding:7px;
+	border-radius:10px;
+	height:260px;
+}
+#img_holder img{
+	width:100%;
+	height:140px;
+}
+.page_info{
+	text-align:center;
+	font-size:25px;
+	margin-bottom:10px;	
+	margin-top:0px;	
+   text-shadow: 0 1px 0 #FFFFFF;
+}
+.page_info h3{
+	margin-top:0px;	
+	margin-bottom:0px;
+}
+#img_label{	
+	border-bottom:#ccc solid 0.1em;
+	padding:5px;
+	font-size:15px;
+	color:#CF4432;
+}
+#place_marks{
+	border-bottom:#ccc solid 0.1em;
+	padding:5px;
+	color:#000;
+	text-align:center;
+}
+#place_marks a{
+	color:#000;
+	text-decoration:none;
+}
+#img_desc{
+	border-bottom:#ccc solid 0.1em;
+	padding:5px;
+}
+img{
+	width: 100%;
+	height:60%;
+}
+#read_more{
+	border:#fff solid 0.1em;
+	background:#CF4432;
+	width:90%;
+	border-radius:5px;
+	text-align:center;
+	
+	padding:5px;
+	margin-top:7px;
+}
+#read_more a{
+	color:#fff;	
+	text-decoration:none;
+	padding:5px;
+}
+
+#icon img{
+	width:15px;
+	height:15px;
+	padding-left:2px;
+}
+
+/* place search page*/
+
+.search{
+	width:100%;
+	margin-bottom:10px;
+	padding:10px;
+	
+}
+
+.search input{
+	width:90%;
+	padding:10px;
+	border:#5C6FFA 0.1em solid;
+	border-radius:3px;
+	font-size:15px;
+	color:#ccc;
+}
+
+
+/* your marks page*/
+#my_content{
+	float:left;
+	width:70%;
+	
+}
+
+#uploadForm{
+	padding:10px;
+	border:#ccc 0.1em solid;
+	border-radius:5px;
+	font-size:15px;
+	color:#ccc;
+	width:25%;
+	float:right;
+	background:#fff;
+	text-align:center;
+}
+
+#uploadForm input,textArea{
+	padding:5px;
+	border-radius:3px;
+}
+
+#upload_info{
+	border-bottom:#ccc 0.1em solid;
+	padding:5px;
+}
+
+#upload_pic{
+	padding:5px;
+	
+}
+#upload_pic div{
+	
+	padding:5px;
+	margin-top:10px;
+}
+#upload_btn{	
+	border:#577DFA 0.1em solid;
+	padding:5px;
+	background:#577DFA;
+	color:#fff;
+	width:100px;
+}
+
+/*markwishlike.php page*/
+#markorWish{
+	border:#ccc 0.1em solid;
+	float:left;
+	padding:10px;
+	background:#fff;
+	color:#000;
+	width:35%;
+	margin-left:7%;
+}
+
+#markorWish h2{
+	text-align:center;
+}
+
+#markorWish form div{
+	margin-bottom:10px;
+	padding:5px;
+	border-top:#ccc 0.1em solid;
+}
+
+#markorWish #submit_wish{
+	border:#41FA47 0.1em solid;
+	background:#41FA47;	
+	color:#fff;
+	padding:5px;
+	font-size:16px;
+	float:right;
+	border-radius:3px;
+}
+#markorWish #submit_mark{
+	border:#F53B31 0.1em solid;
+	background:#F53B31;	
+	color:#fff;
+	padding:5px;
+	font-size:16px;
+	float:right;
+	border-radius:3px;
+}
+.about_place{
+	border:#ccc 0.1em solid;
+	background:#fff;
+	margin-bottom:14px;	
+	padding:10px;
+	font-size:14px;
+	width:90%;
+}
+.place_marks{
+	border:#fff 0.1em solid;
+	background:#fff;
+	padding:5px;
+	margin-top:20px;
+}
+.place_marks h3{
+	font-size:15px;
+} 
+#place_marks_photoHolder{
+	float:left;
+	margin:5px;
+	width:105px;
+	border:#ccc 0.1em solid;
+	background:#fff;
+	padding:2px;	
+}
+#place_marks_label{
+	padding:2px;
+	font-size:12px;	
+	color:#000;
+	text-align:center;
+}
+#place_marks_date{
+	border-bottom:#ccc 0.1em solid;
+}
+#place_marks_photoHolder img{
+	width:100px;
+	height:100px;
+}
+
+/*place search page*/
+#searchData h3{
+	float:left;
+}
+
+#placeSearch{
+	width:20%;
+	float:left;
+	border:#ccc 0.1em solid;
+	background:#fff;
+	padding:10px;
+	font-size:15px;
+	margin-left:20px;
+	border-radius:10px;
+}
+
+#placeSearch div{
+	margin-bottom:#ccc 0.1em solid;
+	padding:5px;
+	text-align:center;
+}
+
+#txtHint{
+	margin-left:30px;
+}
+
+#submit_btn{
+	border:#66a7f7 0.1em solid;
+	background:#66a7f7;
+	padding:10px;
+	font-size:15px;
+	color:#fff;
+	width:50%;
+	margin-left:25%;
+}
+
+
+
+
